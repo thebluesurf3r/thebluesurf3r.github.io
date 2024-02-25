@@ -2,40 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.25">
     <meta name="description" content="Professional Portfolio">
     <meta name="keywords" content="portfolio, resume, web development">
     <meta name="author" content="Vyom Deepansh">
-    <title>Vyom Deepansh - Portfolio</title>
-    
+
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <title id="vyomdeepansh">Vyom Deepansh - Portfolio</title>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 </head>
-<body>
+<body class="fade">
 
-    <header>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 100%
+            margin: 0.25%;
+            padding: 0.5%;
+            display: block;
+            color: #000000;
+            background-image: url('resources/pexels-pixabay-326311.jpg');
+            background-position-y: 70%;
+            background-size: 150%;
+            background-position-x: 45%;
+        }
+        </style>
+
+    <header id="vyom">
         <a href="index.html"> <h1>Vyom Deepansh</h1> </a>
+        
         <h5>Data Analysis and Research</h5>
     </header>
 
     <main>
-        <sidebar>
+        <sidebar id="main-list">
             <h7>
             <nav>
-                <ul>
-                    <li><a href="aboutme.html">About Me</a> </li>
-                    <li><a href="technical_skills.html">Technical Skills</a> </li>
-                    <li><a href="professional_skills.html">Professional Skills</a> </li>
-                    <li><a href="industry_skills.html">Industry-Specific Skills</a> </li>
-                    <li><a href="projects.html">Projects</a> </li>
-                    <li><a href="contact.html">Contact</a> </li>
-                </ul>
+            <ul id="sidebarlist">
+                <li id="list-about"><a href="aboutme.html">About Me</a> </li>
+                <li id="list-technical"><a href="technical_skills.html">Technical Skills</a> </li>
+                <li id="list-prof"><a href="professional_skills.html">Professional Skills</a> </li>
+                <li id="list-indus"><a href="industry_skills.html">Industry-Specific Skills</a> </li>
+                <li id="list-projects"><a href="projects.html">Projects</a> </li>
+                <li id="list-contact"><a href="contact.html">Contact</a> </li>
+            </ul>
             </nav>
             </h7>
         </sidebar>
 
-        <section id="aboutme">
-            <h4>About Me</h4>
+        <section id="aboutandskills">
+            <h2>About Me</h2>
             <p>
                 <h6>
                 Welcome to my portfolio! I am a passionate designer and a professional in data analysis, web development, and database management. My goal is to leverage my skills to build innovative and exciting projects.

@@ -1,118 +1,129 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 2.5%;
-    display: flex;
-    color: #fff;
-    background-image: url('resources/pexels-charlotte-may-5825604.jpg');
-}
-
 header {
     color: #fff;
     text-align: center;
-    padding: 5%;
-    flex: 0.9;
+    padding: 1.618034%;
 }
 
 main {
     display: flex;
-    flex: 3;
+    flex: 0.5%;
 }
 
 section {
-    max-width: 50%;
-    margin: 30px auto;
-    padding: 20px;
+    max-width: 75%;
+    margin: 1.618034% auto;
+    padding: 3.236068%;
     background-color: #030000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex: 2;
+    flex: 0.168034%;
 }
 
 sidebar {
     background-color: #000000;
-    padding: 20px;
-    display: flex;
+    padding: 3.236068%;
+    display: block;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    font-variant: normal-caps;
 }
 
 nav {
-    display: flex;
+    display: block;
+    padding: 3.236068%
     flex-direction: column;
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: solid;
 }
 
-h1,
-h2,
+h1 {
+    color: #fffafa;
+    font-size: 323.6068%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-variant: medium-caps;
+}
+
+h2 {
+    color: #000000;
+    font-size: 130.9013%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-variant: medium-caps;
+}
+
 h3 {
     color: #ffffff;
+    font-size: 211.8028%;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 h4 {
     color: #000000;
-    font-size: large;
+    font-size: 130.9013%;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 h5 {
     color: #ffffff;
-    font-size: small;
+    font-size: 161.8034%;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    font-variant: medium-caps;
 }
 
 h6 {
     color: #000000;
-    font-size: x-small;
+    font-size: 80.9015%;
     font-family: sans-serif;
-    font-weight: 100;
+    font-weight: 150;
+    font-variant: normal;
 }
 
 h7 {
     color: #fff;
-    font-size: small;
+    font-size: 96.9639%;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 p {
-    line-height: 1.6;
-    color: #160303;
+    line-height: 6.472136%;
+    font-family: sans-serif;
 }
 
 ul {
+    list-style: disc;
+    padding: 0.3236068%;
+    margin: 0.3236068%;
+}
+
+#sidebarlist {
     list-style: none;
-    padding: 0;
 }
 
 li {
-    margin-bottom: 5px;
+    margin-bottom: 0.1618034%;
 }
 
 
 a {
-    color: #007bff;
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: solid;
+    font-weight: 323.606%;
 }
 
 a:hover {
     text-decoration: dashed;
+    text-align: center;
+    margin: 0.161803%
 }
 
 sidebar h7 nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 16.1803%;
 }
 
 sidebar h7 nav ul li a {
@@ -121,27 +132,28 @@ sidebar h7 nav ul li a {
 }
 
 sidebar h7 nav ul li a:hover {
-    color: #234d7a;
+    color: #8a4c28;
+    padding: 1.618034%;
 }
 
 #aboutandskills {
-    opacity: 0.75;
-    transition: background-color 0.3s ease;
-    transition-behavior: inherit;
+    opacity: 75%;
+    transition: background-color 0.6s ease;
+    transition-behavior: initial;
 }
 
 #aboutandskills:hover {
     background-color: #ffffff;
-    opacity: 1;
+    opacity: 100%;
 }
 
 #aboutandskills h6 {
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease;
     
 }
 
 #aboutandskills:hover h6 {
-    transform: scale(1.105);
+    transform: scale(1.025);
 }
 
 #aboutandskills {
@@ -150,21 +162,21 @@ sidebar h7 nav ul li a:hover {
 }
 
 #professional-summary {
-    transition: background-color 0.3s ease;
-    opacity: 0.75;
+    transition: background-color 0.6s ease;
+    opacity: 75%;
 }
 
 #professional-summary:hover {
     background-color: #ffffff;
-    opacity: 1;
+    opacity: 100%;
 }
 
 #professional-summary h6 {
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease;
 }
 
 #professional-summary:hover h6 {
-    transform: scale(1.105);
+    transform: scale(1.025);
 }
 
 #professional-summary {
@@ -175,6 +187,7 @@ sidebar h7 nav ul li a:hover {
 #main-list: {
     background-image: url('resources/newplot(2).png');
     image-rendering: optimizeQuality;
+
 }
 
 #main-list:hover {
@@ -185,18 +198,18 @@ sidebar h7 nav ul li a:hover {
 
 #main-list:hover h7 nav {
     transition: transform 0.3s ease;
-    transform: scale(1.05);
-    transform: matrix3d(1);
-    background-color: matrix3d(2);
+    transform: scale(1);
+    transform: matrix3d(32.3606%);
+    
 }
 
 #vyom {
-    opacity: 0.9;
+    opacity: 90%;
 }
 
 #vyom:hover {
     transition: transform 0.3s ease;
-    opacity: 1;
+    opacity: 75%;
     background-color: #000000;
     transform: scale(1.05);     
 }
@@ -205,8 +218,12 @@ sidebar h7 nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
-#rounded-box {
-    border-radius: 10px; /* Adjust the radius value to your preference */
-    padding: 20px;
-    background-color: #f0f0f0;
-}
+body {
+    opacity: 1;
+    transition: opacity 0.45s ease;
+  }
+  
+.fade-out {
+    opacity: 0;
+  }
+  

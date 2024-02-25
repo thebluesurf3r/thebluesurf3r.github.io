@@ -2,48 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.25">
     <meta name="description" content="Professional Portfolio">
     <meta name="keywords" content="portfolio, resume, web development">
     <meta name="author" content="Vyom Deepansh">
-    <title>Vyom Deepansh - Portfolio</title>
-    
+
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <title id="vyomdeepansh">Vyom Deepansh - Portfolio</title>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 </head>
-<body>
-    <header>
+<body class="fade">
+
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 100%
+            margin: 0.25%;
+            padding: 0.5%;
+            display: block;
+            color: #000000;
+            background-image: url('resources/pexels-pixabay-326311.jpg');
+            background-position-y: 70%;
+            background-size: 150%;
+            background-position-x: 45%;
+        }
+        </style>
+
+    <header id="vyom">
         <a href="index.html"> <h1>Vyom Deepansh</h1> </a>
+        
         <h5>Data Analysis and Research</h5>
     </header>
-    
+
     <main>
-        <sidebar>
+        <sidebar id="main-list">
             <h7>
             <nav>
-                <ul>
-                    <li><a href="aboutme.html">About Me</a> </li>
-                    <li><a href="technical_skills.html">Technical Skills</a> </li>
-                    <li><a href="professional_skills.html">Professional Skills</a> </li>
-                    <li><a href="industry_skills.html">Industry-Specific Skills</a> </li>
-                    <li><a href="projects.html">Projects</a> </li>
-                    <li><a href="contact.html">Contact</a> </li>
-                </ul>
+            <ul id="sidebarlist">
+                <li id="list-about"><a href="aboutme.html">About Me</a> </li>
+                <li id="list-technical"><a href="technical_skills.html">Technical Skills</a> </li>
+                <li id="list-prof"><a href="professional_skills.html">Professional Skills</a> </li>
+                <li id="list-indus"><a href="industry_skills.html">Industry-Specific Skills</a> </li>
+                <li id="list-projects"><a href="projects.html">Projects</a> </li>
+                <li id="list-contact"><a href="contact.html">Contact</a> </li>
+            </ul>
             </nav>
             </h7>
         </sidebar>
 
-        <section id="projects">
-        <iframe src="visuals/obesity_v1.html" width="500" height="500">  </iframe>
-            <h4>Projects:</h4>
-            <ul>
-                <h6>                   
-                <li><strong> Titantic Survival Prediction</strong> Pandas, Numpy, Matplotlib, Seaborn, Plotly</li>
-                <li><strong> Mean Variance Standard Deviation Calculator</strong> HTML, CSS, JavaScript, Bootstrap, Apache</li>
-                <li><strong>Obesity Predication:</strong> MySQL, BigQuery</li>
-                <li><strong>Data Visualization:</strong> Tableau, Power BI</li>
-                <li><strong>Google Tools:</strong> Google Analytics 4, BigQuery, Google Tag Manager</li>
+        <section id="aboutandskills">
+            <h2>Projects</h2>
+            <ul id="education">
+                <h6>
+                <li><strong>Manav Rachna International Universty: </strong>Bachelor of Technology in Aeronautical Engineering [2018]</li>
                 </h6>
             </ul>
         </section>
