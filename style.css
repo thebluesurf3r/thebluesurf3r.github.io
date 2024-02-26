@@ -33,16 +33,12 @@ nav {
     flex-direction: column;
 }
 
-nav a:hover {
-    text-decoration: solid;
-}
-
 h1 {
     color: #fffafa;
     font-size: 323.6068%;
     font-family: sans-serif;
     font-weight: 600;
-    font-variant: medium-caps;
+    font-variant: small-caps;
 }
 
 h2 {
@@ -72,7 +68,7 @@ h5 {
     font-size: 161.8034%;
     font-family: sans-serif;
     font-weight: 600;
-    font-variant: medium-caps;
+    font-variant: normal;
 }
 
 h6 {
@@ -90,25 +86,17 @@ h7 {
     font-weight: 300;
 }
 
-p {
-    line-height: 6.472136%;
+h8 {
+    color: #000000;
+    font-size: 96.9639%;
     font-family: sans-serif;
-}
-
-ul {
-    list-style: disc;
-    padding: 0.3236068%;
-    margin: 0.3236068%;
+    font-weight: 150;
+    font-variant: normal;
 }
 
 #sidebarlist {
     list-style: none;
 }
-
-li {
-    margin-bottom: 0.1618034%;
-}
-
 
 a {
     color: #ffffff;
@@ -122,18 +110,13 @@ a:hover {
     margin: 0.161803%
 }
 
-sidebar h7 nav ul li {
-    margin-bottom: 16.1803%;
-}
-
 sidebar h7 nav ul li a {
     color: #ffffff;
     transition: color 0.3s ease;
 }
 
 sidebar h7 nav ul li a:hover {
-    color: #8a4c28;
-    padding: 1.618034%;
+    color: #002fff;
 }
 
 #aboutandskills {
@@ -184,25 +167,6 @@ sidebar h7 nav ul li a:hover {
     text-emphasis-color: black;
 }
 
-#main-list: {
-    background-image: url('resources/newplot(2).png');
-    image-rendering: optimizeQuality;
-
-}
-
-#main-list:hover {
-    transition: background-image 0.9s ease;
-    background-color: #000000;
-    text-emphasis-color: white;
-}
-
-#main-list:hover h7 nav {
-    transition: transform 0.3s ease;
-    transform: scale(1);
-    transform: matrix3d(32.3606%);
-    
-}
-
 #vyom {
     opacity: 90%;
 }
@@ -227,3 +191,24 @@ body {
     opacity: 0;
   }
   
+#aboutmepageparagraph {
+    color: #000000;
+    font-size: 80.9015%;
+    font-family: sans-serif;
+    font-weight: 150;
+    font-variant: normal;    
+}
+
+#aboutmepagebullets {
+    color: #000000;
+    font-size: 130.9013%;
+    font-family: sans-serif;
+    font-weight: 150;
+    font-variant: normal;
+    list-style-type: circle;
+}
+
+#aboutmepagesection {
+    background-color: #e0e0e0;
+    
+}
