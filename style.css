@@ -17,27 +17,55 @@ section {
     flex: 0.168034%;
 }
 
-sidebar {
-    background-color: #000000;
-    padding: 3.236068%;
-    display: block;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    font-variant: normal-caps;
+#main-list {
+    position: static;
+    overflow: hidden;
+    background-image: url(resources/network-5987786_1920.jpg);
+    opacity: 100%;
+}
+
+#main-list h7 {
+    position: relative;
+    z-index: 1;
+}
+
+#main-list h7::before,
+#main-list h7::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000%;
+    opacity: 0%;
+    z-index: -1;
+    transition: opacity 0.6s ease;
+}
+
+#main-list h7:hover::before,
+#main-list h7:hover::after {
+    opacity: 75%;
+    background-image: linear-gradient(to left, #21007a, #000000);
+}
+
+#main-list h7:hover::before,
+#main-list h7:hover::after {
+    opacity: 75%;
+    background-image: linear-gradient(to right, #000000, #21007a);
+    background-position-y: -50%;
 }
 
 nav {
-    display: block;
-    padding: 3.236068%
-    flex-direction: column;
-}
+    display: list-item;
+    padding: 0%;
+    letter-spacing: 0.75px;
+    line-height: 40px;
+    }
 
 h1 {
     color: #fffafa;
-    font-size: 323.6068%;
+    font-size: 60px;
     font-family: sans-serif;
-    font-weight: 600;
     font-variant: small-caps;
 }
 
@@ -46,7 +74,6 @@ h2 {
     font-size: 130.9013%;
     font-family: sans-serif;
     font-weight: 600;
-    font-variant: medium-caps;
 }
 
 h3 {
@@ -60,14 +87,14 @@ h4 {
     color: #000000;
     font-size: 130.9013%;
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 5%;
 }
 
 h5 {
     color: #ffffff;
     font-size: 161.8034%;
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 5%;
     font-variant: normal;
 }
 
@@ -75,15 +102,14 @@ h6 {
     color: #000000;
     font-size: 80.9015%;
     font-family: sans-serif;
-    font-weight: 150;
+    font-weight: 5%;
     font-variant: normal;
 }
 
 h7 {
     color: #fff;
-    font-size: 96.9639%;
+    font-size: 80.9015px;
     font-family: sans-serif;
-    font-weight: 300;
 }
 
 h8 {
@@ -94,10 +120,6 @@ h8 {
     font-variant: normal;
 }
 
-#sidebarlist {
-    list-style: none;
-}
-
 a {
     color: #ffffff;
     text-decoration: solid;
@@ -105,7 +127,7 @@ a {
 }
 
 a:hover {
-    text-decoration: dashed;
+    text-decoration: underline;
     text-align: center;
     margin: 0.161803%
 }
@@ -113,10 +135,6 @@ a:hover {
 sidebar h7 nav ul li a {
     color: #ffffff;
     transition: color 0.3s ease;
-}
-
-sidebar h7 nav ul li a:hover {
-    color: #002fff;
 }
 
 #aboutandskills {
@@ -167,16 +185,55 @@ sidebar h7 nav ul li a:hover {
     text-emphasis-color: black;
 }
 
-#vyom {
-    opacity: 90%;
+#vyomdeepansh {
+    position: relative;
+    overflow: hidden;
 }
 
-#vyom:hover {
-    transition: transform 0.3s ease;
-    opacity: 75%;
-    background-color: #000000;
-    transform: scale(1.05);     
+#vyomdeepansh h1 {
+    position: relative;
+    z-index: 5;
 }
+
+#vyomdeepansh h1::before,
+#vyomdeepansh h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(resources/black-1072366_1920.jpg);
+    opacity: 0;
+    z-index: -2;
+    transition: opacity 0.6s ease;
+}
+
+#vyomdeepansh h1:hover::before,
+#vyomdeepansh h1:hover::after {
+    opacity: 10%;
+    background-image: linear-gradient(to right, #100333, #01014b);
+}
+
+#vyomdeepansh h1:hover {
+    transition: transform 0.3s ease;
+    opacity: 100%;
+    transform: scale(1.05);
+    font-style: normal;
+}
+
+#vyomdeepansh h5:hover::before,
+#vyomdeepansh h5:hover::after {
+    opacity: 10%;
+    background-image: linear-gradient(to right, #100333, #01014b);
+}
+
+#vyomdeepansh h5:hover {
+    transition: transform 0.3s ease;
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
 
 #techskills:hover {
     transition: transform 0.3s ease;
@@ -195,7 +252,7 @@ body {
     color: #000000;
     font-size: 80.9015%;
     font-family: sans-serif;
-    font-weight: 150;
+    font-weight: 15%;
     font-variant: normal;    
 }
 
@@ -212,3 +269,15 @@ body {
     background-color: #e0e0e0;
     
 }
+
+#sidebarlist {
+    list-style: none;
+}
+
+main sidebar h7 nav ul {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: justify;
+    align-content: left;
+}
+
