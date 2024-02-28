@@ -11,9 +11,9 @@ main {
 
 section {
     max-width: 75%;
-    margin: 1.618034% auto;
+    margin: 0.809015%;
     padding: 3.236068%;
-    background-color: #030000;
+    background-color: #ffffff;
     flex: 0.168034%;
 }
 
@@ -21,12 +21,17 @@ section {
     position: static;
     overflow: hidden;
     background-image: url(resources/network-5987786_1920.jpg);
-    opacity: 100%;
+    opacity: 90%;
+    margin: 1%;
+    width: 18%;
+    margin: 1%;
+    box-sizing: border-box;
+    border-radius: 5px
 }
 
 #main-list h7 {
     position: relative;
-    z-index: 1;
+    z-index: 1.5;
 }
 
 #main-list h7::before,
@@ -39,7 +44,7 @@ section {
     height: 1000%;
     opacity: 0%;
     z-index: -1;
-    transition: opacity 0.6s ease;
+    transition: opacity 0.3s ease;
 }
 
 #main-list h7:hover::before,
@@ -50,9 +55,10 @@ section {
 
 #main-list h7:hover::before,
 #main-list h7:hover::after {
-    opacity: 75%;
+    opacity: 50%;
     background-image: linear-gradient(to right, #000000, #21007a);
     background-position-y: -50%;
+    background-blend-mode: hard-light;
 }
 
 nav {
@@ -60,6 +66,7 @@ nav {
     padding: 0%;
     letter-spacing: 0.75px;
     line-height: 40px;
+    margin: 0%;
     }
 
 h1 {
@@ -108,7 +115,7 @@ h6 {
 
 h7 {
     color: #fff;
-    font-size: 80.9015px;
+    font-size: 80.9015%;
     font-family: sans-serif;
 }
 
@@ -127,62 +134,53 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: #01014b;
     text-align: center;
-    margin: 0.161803%
+    margin: 0.161803%;
 }
 
 sidebar h7 nav ul li a {
     color: #ffffff;
-    transition: color 0.3s ease;
 }
 
-#aboutandskills {
-    opacity: 75%;
-    transition: background-color 0.6s ease;
-    transition-behavior: initial;
+#abouttosummary {
+    opacity: 90%;
+    transition: initial;
+    background-image: url(resources/pexels-ron-lach-10526880.jpg);
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #01014b;
 }
 
-#aboutandskills:hover {
+#abouttosummary h6: hover {
+    color: white;
+}
+
+#abouttosummary:hover {
     background-color: #ffffff;
-    opacity: 100%;
-}
-
-#aboutandskills h6 {
-    transition: transform 0.6s ease;
-    
-}
-
-#aboutandskills:hover h6 {
-    transform: scale(1.025);
-}
-
-#aboutandskills {
-    background-color: #e0e0e0;
-    text-emphasis-color: black;
-}
-
-#professional-summary {
     transition: background-color 0.6s ease;
-    opacity: 75%;
+    opacity: 1;
+    background-image: none;
+
 }
 
-#professional-summary:hover {
-    background-color: #ffffff;
-    opacity: 100%;
-}
-
-#professional-summary h6 {
+#abouttosummary h2 {
     transition: transform 0.6s ease;
 }
 
-#professional-summary:hover h6 {
-    transform: scale(1.025);
+#abouttosummary {
+    background-color: #e0e0e0;
+    color: rgb(0, 0, 0);  /* Changed text-emphasis-color to color */
 }
 
-#professional-summary {
-    background-color: #e0e0e0;
-    text-emphasis-color: black;
+#abouttosummary h6 {
+    transition: transform 0.6s ease;
+}
+
+#abouttosummary:hover h6 {
+    transform: scale(1.025);
+    transform-style: flat;
+    opacity: 1;
 }
 
 #vyomdeepansh {
@@ -203,9 +201,9 @@ sidebar h7 nav ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(resources/black-1072366_1920.jpg);
+    background-image: linear-gradient(to right, #100333, #01014b);
     opacity: 0;
-    z-index: -2;
+    z-index: -1;
     transition: opacity 0.6s ease;
 }
 
@@ -240,19 +238,15 @@ sidebar h7 nav ul li a {
 }
 
 body {
-    opacity: 1;
+    opacity: 100%;
     transition: opacity 0.45s ease;
   }
-  
-.fade-out {
-    opacity: 0;
-  }
-  
+
 #aboutmepageparagraph {
     color: #000000;
     font-size: 80.9015%;
     font-family: sans-serif;
-    font-weight: 15%;
+    font-weight: 25%;
     font-variant: normal;    
 }
 
@@ -272,12 +266,6 @@ body {
 
 #sidebarlist {
     list-style: none;
-}
-
-main sidebar h7 nav ul {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    text-align: justify;
-    align-content: left;
+    margin-left: 1%;
 }
 
