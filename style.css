@@ -5,30 +5,42 @@ header {
 }
 
 body.fade {
-    animation: fadeIn 2s ease;
+    animation: fadeIn 1s ease;
 }
 
 @keyframes fadeIn {
     0% {
-        opacity: 0;
+        opacity: 0.5;
     }
-    50% {
+    100% {
         opacity: 1;
     }
 }
 
 header#vyomdeepansh a h1 {
     background-color: #000000;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
     border-radius: 15px;
-    opacity: 75%;
+    opacity: 0.5;
+    animation: flash 2s; /* Adjust the duration as needed */
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 header#vyomdeepansh a h1:hover {
-    color: #7c7c7cb9;
-    opacity: 100%;
-    background-color: #000000;
+    color: #000000;
+    opacity: 1;
+    background-color: #170b52;
+    animation: none; /* Stop the animation on hover */
 }
+
 
 section#resume h2 {
     transition: color 0.3s ease, font-size 0.3s ease;
