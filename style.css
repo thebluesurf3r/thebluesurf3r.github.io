@@ -4,6 +4,11 @@ header {
     padding: 0%;
 }
 
+body {
+    opacity: 100%;
+    transition: opacity 0.45s ease;
+}
+
 header#vyomdeepansh a h1 {
     background-color: #000000;
     transition: background-color 0.3s ease;
