@@ -13,3 +13,20 @@
       });
     });
   });
+
+const sidebarLinks = document.querySelectorAll('#sidebar_ul li a');
+
+sidebarLinks.forEach(link => {
+  link.addEventListener('mouseover', () => {
+    const targetSectionId = link.href.split('.html')[0]; // Extract section ID from href
+    const targetElement = document.getElementById(targetSectionId);
+    targetElement.classList.add('highlighted'); // Add 'highlighted' class
+  });
+
+  link.addEventListener('mouseout', () => {
+    const targetSectionId = link.href.split('.html')[0];
+    const targetElement = document.getElementById(targetSectionId);
+    targetElement.classList.remove('highlighted'); // Remove 'highlighted' class
+  });
+});
+

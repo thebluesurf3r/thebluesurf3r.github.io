@@ -8,120 +8,241 @@
     <meta name="author" content="Vyom Deepansh">
 
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
     <title id="vyomdeepansh">Vyom Deepansh - Portfolio</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-</head>
-<body class="fade">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrshc9zYUAfxkLOBr5M5BE5sA9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
 
     <style>
         body {
-            font-family: sans-serif;;
-            margin: 0%;
-            padding: 1.618034%;
-            display: list-item;
-            background-image: url('resources/newplot(3).png');
-            background-size: 150.1%;
+            font-family: sans-serif;
+            margin: 1%;
+            padding: 0%;
+            display: block;
+            box-shadow: inset;
+            flex-direction: column;
+            background-image: url(resources/5075841.jpg); /*change the background image from here*/
+            background-size: 100%;
         }
-        </style>
+    </style>
+</head>
+<body class="fade">
 
     <header id="vyomdeepansh">
-        <a href="index.html"> <h1>Vyom Deepansh</h1> </a>
-        
-        <h5>Data Analysis and Research</h5>
+        <a href="index.html"> <h1>Vyom Deepansh</h1></a>
+
     </header>
 
-    <main>
-        <div id="main-list">
-        <sidebar id="sidebar-1">
-            <h7>
-            <nav>
-            <ul id="sidebarlist">
-                <li><a href="aboutme.html">About Me</a> </li>
-                <li><a href="technical_skills.html">Technical Skills</a> </li>
-                <li><a href="professional_skills.html">Professional Skills</a> </li>
-                <li><a href="industry_skills.html">Industry-Specific Skills</a> </li>
-                <li><a href="projects.html">Projects</a> </li>
-                <li><a href="contact.html">Contact</a> </li>
+    <div id="sidebar">
+        <nav>
+            <ul id="sidebar_ul">
+                <li><a href="index.html"><i class="bi bi-house-fill"></i> Home</a></li>
+                <li><a href="aboutme.html"><i class="bi bi-person-circle"></i> About Me</a></li>
+                <li><a href="technical_skills.html"><i class="bi bi-gear-fill"></i> Technical Skills</a></li>
+                <li><a href="professional_skills.html"><i class="bi bi-briefcase-fill"></i> Professional Skills</a></li>
+                <li><a href="projects.html"><i class="bi bi-folder-fill"></i> Projects</a></li>
+                <li><a href="contact.html"><i class="bi bi-envelope-fill"></i> Contact</a></li>
             </ul>
-            </nav>
-            </h7>
-        </sidebar>
-    </div>
-        <section id="abouttosummary">
-            <div>
-            <h2>About Me</h2>
-            <p>
-                <h6>
-                Welcome to my portfolio! I am a passionate designer and a professional in data analysis, web development, and database management. My goal is to leverage my skills to build innovative and exciting projects.
-                </h6>
-            </p><hr>
-        
-
-            <h2>Technical Skills</h2>
-            <ul id="techskills">
-                <h6>                   
-                <li><strong>Python Data Analysis:</strong> Pandas, Numpy, Matplotlib, Seaborn, Plotly</li>
-                <li><strong>Web Development:</strong> HTML, CSS, JavaScript, Bootstrap, Apache</li>
-                <li><strong>Database Management:</strong> MySQL, BigQuery</li>
-                <li><strong>Data Visualization:</strong> Tableau, Power BI</li>
-                <li><strong>Google Tools:</strong> Google Analytics 4, BigQuery, Google Tag Manager</li>
-                </h6>
-            </ul><hr>
-        
-            <h2>Professional Skills</h2>
-            <ul id="professionalskills">
-                <h6>
-                <li><strong>Data Analysis:</strong> Proficient in both low-level (Google Sheets, Microsoft Excel) and high-level (Python, SQL) data analysis tools.</li>
-                <li><strong>Problem-Solving:</strong> Proven ability to extract meaningful insights from complex datasets.</li>
-                <li><strong>Adaptability:</strong> Successfully navigated diverse roles at WNS, Aakarist Pvt Ltd, and Cognizant.</li>
-                <li><strong>Continuous Learning:</strong> Bachelor's degree in Aeronautical Engineering and a commitment to staying current with industry trends.</li>
-                </h6>
-            </ul><hr>
-        
-            <h2>Industry-Specific Skills</h2>
-            <ul id="industryskills">
-                <h6>
-                <li><strong>Aeronautical Engineering:</strong> Educational background providing a unique perspective on problem-solving.</li>
-                <li><strong>Business Intelligence:</strong> Experience with tools like Tableau and Power BI for creating actionable business insights.</li>
-                <li><strong>Web Development:</strong> Proficiency in creating responsive web interfaces for data presentation and interaction.</li>
-                <li><strong>Google Analytics:</strong> Exposure to Google-specific tools for advanced data analytics and tracking.</li>
-                </h6>
-            </ul><hr>
-        </section>
+        </nav>
     </div>
 
-        <section id="abouttosummary">
-            <h2>Professional Experience</h2>
-            <ul id="organization">
-                <h6>
-                <li><strong>Cognizant Technology Solutions: </strong>Senior Analyst</li>
-                <li><strong>Aakarist Pvt Ltd: </strong>Senior Analyst</li>
-                <li><strong>WNS Global Services: </strong> Analyst</li>
-                </h6>
-            </ul><hr>
+<div class="container">
+<section id="resume">
+<h2><strong>About Me</strong></h2>
+        <h6>
+            Welcome to my portfolio! I am a passionate designer and a professional in data analysis, web development, and database management. My goal is to leverage my skills to build innovative and exciting projects.
+        </h6>
+</section>
+</div>
 
-            <h2>Certification and Awards</h2>
-            <ul id="certification">
-                <h6>
-                <li><strong>FreeCodeCamp.Org: </strong>Scientific Computing using Python</li>
-                <li><strong>FreeCodeCamp.Org: </strong>Machine Learning</li>
-                <li><strong>Google Digital Garage: </strong>Fundamentals of Digital Marketing</li>
-                </h6>
-            </ul><hr>
+<div class="container">
+<section id="resume">
+<h2><strong>Technical Skills</strong></h2>
+<ul id="resume_ul">
+    <h4><strong><li><div class="skill-container">
+        <div class="skill">
+            <div class="skill-label">Python Modules: </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 65%;"></div> <!-- Adjust the width based on your expertise level -->
+            </div>
+            </div></strong></h4>
+            <h6>Pipenv, Pandas, Numpy, Matplotlib, Seaborn, Plotly, SimPy, Networkx</h6>
 
-            <h2>Education</h2>
-            <ul id="education">
-                <h6>
-                <li><strong>Manav Rachna International Universty: </strong>Bachelor of Technology in Aeronautical Engineering [2018]</li>
-                </h6>
-            </ul><hr>
-        </section>
-    </main>
-</body>
+    <h4><strong><li><div class="skill-container">
+        <div class="skill">
+            <div class="skill-label">Database Management: </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 50%;"></div> <!-- Adjust the width based on your expertise level -->
+            </div>
+            </div></li></strong></h4>
+            <h6>
+            MySQL, BigQuery
+        </h6>
+
+    <h4><strong><li><div class="skill-container">
+        <div class="skill">
+            <div class="skill-label">Data Visualization: </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 85%;"></div> <!-- Adjust the width based on your expertise level -->
+            </div>
+            </div></li></strong></h4>
+            <h6>
+            <ul id="subbullets">
+                <li>Looker Studio, Tableau, Power BI</li>
+            </ul>
+        </h6>
+
+    <h4><strong><li><div class="skill-container">
+        <div class="skill">
+            <div class="skill-label">Web Development: </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 45%;"></div> <!-- Adjust the width based on your expertise level -->
+            </div>
+            </div></li></strong></h4>
+            <h6>
+            <ul id="subbullets">
+                <li>Django, HTML, CSS, JavaScript</li>
+            </ul>
+        </h6>    
+
+    <h4><strong><li><div class="skill-container">
+        <div class="skill">
+            <div class="skill-label">Google Stack: </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 75%;"></div> <!-- Adjust the width based on your expertise level -->
+            </div>
+            </div></li></strong></h4>
+            <h6>
+            <ul id="subbullets">
+                <li>Google Analytics 4, Google Ads, Google Tag Manager, Google AppScript</li>
+            </ul>
+        </h6>    
+</section>
+</div>
+
+<div class="container">
+<section id="resume">
+<h2><strong>Professional Skills</strong></h2>
+<ul id="resume_ul">
+    <h4><strong>Research and Analytics: </strong>Proficient in both low-level (Google Sheets, Microsoft Excel) and high-level (Python, SQL) data analysis tools.<h4>
+
+    <h4><strong>Problem-Solving: </strong>Proven ability to extract meaningful insights from complex datasets.<h4>
+
+    <h4><strong>Adaptability: </strong>Successfully navigated diverse roles at WNS, Aakarist Pvt Ltd, and Cognizant.<h4>
+    
+    <h4><strong>Continuous Learning:</strong>Bachelor's degree in Aeronautical Engineering and a commitment to staying current with industry trends.<h4>
+</section>
+</div>
+
+<div class="container">
+<section id="resume">
+<h2><strong>Professional Experience</strong></h2>
+<ul id="resume_ul">
+    <h4><strong>Cognizant Technology Solutions [2022]: </strong>Senior Analyst</h4>
+        <h6>
+            <ul id="subbullets">
+                <li>Data cleaning, Extraction and Manipulation</li>
+                <li>Creating and Managing pipelines</li>
+                <li>Data streamlining, Feature engineering, Reporting and Dashboard creation</li>
+                <li>Designing and Implementing data analyses, collection systems and strategies that optimize statistical efficiency and quality</li>
+                <li>Troubleshooting data discrepancies across different platforms/products to ensure minimum variance</li>
+                <li>Debugging web analytics reporting and tracking implementations</li>
+            </ul>
+        </h6>
+
+        
+    <h4><strong>Aakarist Pvt Ltd [2020]: </strong>Senior Analyst</h4>
+        <h6>
+            <ul id="subbullets">
+                <li>Collecting and analyzing customer, marketing, and behavioral data</li>
+                <li>Analyzing key metrics, and identifying opportunities to increase campaign performance</li>
+                <li>Developing and presenting analyses, insights, and recommendations</li>
+                <li>Testing campaigns and web measurement strategies</li>
+                <li>Monitoring and analyzing digital media and marketing trends</li>
+                <li>Communicating and presenting to colleagues, senior managers, and clients</li>
+            </ul>
+        </h6>
+    
+    <h4><strong>WNS Global Services [2019]: </strong> Analyst</h4>
+        <h6>
+            <ul id="subbullets">
+                <li>Data analysis using statistical techniques</li>
+                <li>Dashboard creation, data visualizations, and campaign performance reports</li>
+                <li>Communicating and presenting analyses, insights, and recommendations to clients</li>
+              </ul>
+        </h6>
+        </ul>
+</section>
+</div>
+
+<div class="container">
+<section id="resume">
+<h2><strong>Certification and Awards</strong></h2>
+<ul id="resume_ul">
+    <h4><strong>FreeCodeCamp.Org: </strong>Python Certifications</h4>
+        <h6>
+            <ul id="subbullets">
+                <li>Scientific Computing using Python</li>
+                <li>Machine Learning using Python</li>
+            </ul>
+        </h6>
+
+    <h4><strong>Google Digital Garage: </strong>Google Stack Certifications</h4>
+        <h6>
+            <ul id="subbullets">
+                <li>Google Analytics Advanced</li>
+                <li>Fundamentals of Digital Marketing</li>
+                <li>Fundamentals of Digital Marketing</li>
+            </ul>
+        </h6>
+
+    <h4><strong>UIPath: </strong>Robotic Process Automation</h4>
+        <h6>
+            <ul id="subbullets">
+                <li>RPA for beginners</li>
+            </ul>
+        </h6>
+
+    <h4><strong>Insititue of Industrial Design: </strong>Design Engineering</h4>
+        <h6>
+            <ul id="subbullets">
+                <li>Associate in Aero Design</li>
+                <li>Computational Fluid Dynamics</li>
+            </ul>
+        </h6>
+
+    <h4><strong>Indian Institute of Technology: </strong>Boeing Engineering Innovation Awards</h4>
+        <h6>
+            <ul id="subbullets">
+                <li>Parameters involved were design, performance and stability</li>
+                <li>Computational Fluid Dynamics</li>
+            </ul>
+        </h6>
+
+</section>
+</div>
+
+<div class="container">
+    <section id="resume">
+    <h2><strong>Education</strong></h2>
+    <ul id="resume_ul">
+        <h4><strong>Manav Rachna International Universty [2018]: </strong>Bachelor of Technology in Aeronautical Engineering</h4>
+            <h6>
+                    <ul id="subbullets">
+                        <li>Numerical methods and optimization Techniques</li>
+                        <li>Aerodynamics</li>
+                        <li>Rocket propulsion</li>
+                        <li>Continuum mechanics</li>
+                    </ul>
+            </h6>
+</section>
+</div>
+
+</section>
 </html>

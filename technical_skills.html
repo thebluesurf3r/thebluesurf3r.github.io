@@ -8,66 +8,102 @@
     <meta name="author" content="Vyom Deepansh">
 
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
     <title id="vyomdeepansh">Vyom Deepansh - Portfolio</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-</head>
-<body class="fade">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrshc9zYUAfxkLOBr5M5BE5sA9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
 
     <style>
         body {
-            font-family: sans-serif;;
-            margin: 0%;
-            padding: 1.618034%;
-            display: list-item;
-            background-image: url('resources/newplot(3).png');
-            background-size: 150.1%;
+            font-family: sans-serif;
+            margin: 1%;
+            padding: 0%;
+            display: block;
+            box-shadow: inset;
+            flex-direction: column;
+            background-image: url(resources/5075841.jpg); /*change the background image from here*/
+            background-size: 100%;
         }
-        </style>
+    </style>
+</head>
+<body class="fade">
 
     <header id="vyomdeepansh">
-        <a href="index.html"> <h1>Vyom Deepansh</h1> </a>
-        
-        <h5>Data Analysis and Research</h5>
+        <a href="index.html"> <h1>Vyom Deepansh</h1></a>
+
     </header>
 
-    <main>
-        <div id="main-list">
-        <sidebar id="sidebar-1">
-            <h7>
-            <nav>
-            <ul id="sidebarlist">
-                <li><a href="aboutme.html">About Me</a> </li>
-                <li><a href="technical_skills.html">Technical Skills</a> </li>
-                <li><a href="professional_skills.html">Professional Skills</a> </li>
-                <li><a href="industry_skills.html">Industry-Specific Skills</a> </li>
-                <li><a href="projects.html">Projects</a> </li>
-                <li><a href="contact.html">Contact</a> </li>
+    <div id="sidebar">
+        <nav>
+            <ul id="sidebar_ul">
+                <li><a href="index.html"><i class="bi bi-house-fill"></i> Home</a></li>
+                <li><a href="aboutme.html"><i class="bi bi-person-circle"></i> About Me</a></li>
+                <li><a href="technical_skills.html"><i class="bi bi-gear-fill"></i> Technical Skills</a></li>
+                <li><a href="professional_skills.html"><i class="bi bi-briefcase-fill"></i> Professional Skills</a></li>
+                <li><a href="projects.html"><i class="bi bi-folder-fill"></i> Projects</a></li>
+                <li><a href="contact.html"><i class="bi bi-envelope-fill"></i> Contact</a></li>
             </ul>
-            </nav>
-            </h7>
-        </sidebar>
+        </nav>
     </div>
-        <section id="abouttosummary">
-            <div>
-            <h2>Technical Skills</h2>
-            <ul id="techskills">
-                <h6>                   
-                <li><strong>Python Data Analysis:</strong> Pandas, Numpy, Matplotlib, Seaborn, Plotly</li>
-                <li><strong>Web Development:</strong> HTML, CSS, JavaScript, Bootstrap, Apache</li>
-                <li><strong>Database Management:</strong> MySQL, BigQuery</li>
-                <li><strong>Data Visualization:</strong> Tableau, Power BI</li>
-                <li><strong>Google Tools:</strong> Google Analytics 4, BigQuery, Google Tag Manager</li>
-                </h6>
-            </ul><hr>
-        </section>
-    </div>
-        </section>
-    </main>
-</body>
+
+<div class="container">
+<section id="resume">
+<h2>Technical Skills</h2>
+<ul id="resume_ul">
+    <h4><strong>Python Modules:</strong></h4>
+        <h6>
+            <ul id="subbullets">
+                <li><strong>Pipenv: </strong>Streamlined Python development workflow by using Pipenv to manage project's dependencies and virtual environment.</li>
+                <li><strong>Pandas: </strong>For descriptive and statistical analysis.</li>
+                <li><strong>Numpy: </strong>To efficiently analyze the data using powerful array manipulation functions, to identify trends and outliers.</li>
+                <li><strong>Matplotlib: </strong>To create a compelling scatter plot, visualizing the relationship between customer age and purchase amount.</li>
+                <li><strong>Seaborn: </strong>To gain insights into the distribution of prices across different locations using a violin plot, which revealed a clear trend of higher prices in certain locations.</li>
+                <li><strong>Plotly: </strong>To create an interactive chart that allows users to explore data points and identify potential opportunities of improvement.</li>
+                <li><strong>SimPy: </strong>To model the efficiency of a new service desk with multiple agents. This simulation helped evaluate wait times, identify potential bottlenecks, and optimize resource allocation.</li>
+            </ul>
+        </h6>
+
+    <h4><strong>Database Management:</strong></h4>
+        <h6>
+            <ul id="subbullets">
+                <li><strong>MySQL: </strong>Powerful query capabilities to extract and analyze customer purchase history, identifying valuable insights for marketing campaigns.</li>
+                <li><strong>BigQuery: </strong>Massive data processing capabilities to analyze millions of customer clicks and impressions.</li>
+            </ul>
+        </h6>
+
+    <h4><strong>Data Visualization:</strong></h4>
+        <h6>
+            <ul id="subbullets">
+                <li><strong>Looker Studio: </strong>To create interactive dashboards that provided real-time insights into campaign performance to optimize marketing strategies for maximum impact.</li>
+                <li><strong>Tableau/Power BI: </strong>To track key performance indicators (KPIs) in real-time, enabling us to make data-driven decisions about ongoing campaigns.</li>
+            </ul>
+        </h6>
+
+    <h4><strong>Web Development:</strong></h4>
+        <h6>
+            <ul id="subbullets">
+                <li><strong>HTML: </strong>Meticulously crafted this website's structure, ensuring a well-organized and easy-to-navigate user experience.</li>
+                <li><strong>CSS: </strong>To achieve a sleek and modern aesthetic, I employed advanced CSS techniques like transitions and animations.</li>
+                <li><strong>JavaScript: </strong> Built dynamic web applications entirely using Javascript, to manipulate the Document Object Model (DOM) to create a rich and responsive user interface.</li>
+                <li><strong>Django: </strong>Built a dynamic e-commerce platform, leveraging its powerful framework to handle user accounts, product listings, and secure online transactions.</li>
+            </ul>
+        </h6>    
+
+    <h4><strong>Google Stack:</strong></h4>
+        <h6>
+            <ul id="subbullets">
+                <li><strong>Google Analytics 4: </strong>Analyzed user behavior on websites, gaining valuable insights into visitor interactions and optimizing the site's content for a more personalized and engaging user experience.</li>
+                <li><strong>Google Ads: </strong>Successfully boosted online businesses by strategically employing Paid Search campaigns, driving targeted traffic to websites and increasing overall sales.</li>
+                <li><strong>Google Tag Manager: </strong>Streamlined website analytics processes by implementing Google Tag Manager, which allows for efficient tracking of user interactions and simplifying the addition of new tags without the need for manual code updates.</li>
+            </ul>
+        </h6>    
+</section>
+</div>
+
 </html>

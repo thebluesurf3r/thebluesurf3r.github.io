@@ -8,60 +8,76 @@
     <meta name="author" content="Vyom Deepansh">
 
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
     <title id="vyomdeepansh">Vyom Deepansh - Portfolio</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-</head>
-<body class="fade">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrshc9zYUAfxkLOBr5M5BE5sA9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
 
     <style>
         body {
-            font-family: sans-serif;;
-            margin: 0%;
-            padding: 1.618034%;
-            display: list-item;
-            background-image: url('resources/newplot(3).png');
-            background-size: 150.1%;
+            font-family: sans-serif;
+            margin: 1%;
+            padding: 0%;
+            display: block;
+            box-shadow: inset;
+            flex-direction: column;
+            background-image: url(resources/5075841.jpg); /*change the background image from here*/
+            background-size: 100%;
         }
-        </style>
+    </style>
+</head>
+<body class="fade">
 
     <header id="vyomdeepansh">
-        <a href="index.html"> <h1>Vyom Deepansh</h1> </a>
-        
-        <h5>Data Analysis and Research</h5>
+        <a href="index.html"> <h1>Vyom Deepansh</h1></a>
+
     </header>
 
-    <main>
-        <div id="main-list">
-        <sidebar id="sidebar-1">
-            <h7>
-            <nav>
-            <ul id="sidebarlist">
-                <li><a href="aboutme.html">About Me</a> </li>
-                <li><a href="technical_skills.html">Technical Skills</a> </li>
-                <li><a href="professional_skills.html">Professional Skills</a> </li>
-                <li><a href="industry_skills.html">Industry-Specific Skills</a> </li>
-                <li><a href="projects.html">Projects</a> </li>
-                <li><a href="contact.html">Contact</a> </li>
+    <div id="sidebar">
+        <nav>
+            <ul id="sidebar_ul">
+                <li><a href="index.html"><i class="bi bi-house-fill"></i> Home</a></li>
+                <li><a href="aboutme.html"><i class="bi bi-person-circle"></i> About Me</a></li>
+                <li><a href="technical_skills.html"><i class="bi bi-gear-fill"></i> Technical Skills</a></li>
+                <li><a href="professional_skills.html"><i class="bi bi-briefcase-fill"></i> Professional Skills</a></li>
+                <li><a href="projects.html"><i class="bi bi-folder-fill"></i> Projects</a></li>
+                <li><a href="contact.html"><i class="bi bi-envelope-fill"></i> Contact</a></li>
             </ul>
-            </nav>
-            </h7>
-        </sidebar>
+        </nav>
     </div>
-        <section id="abouttosummary">
-            <div>
-            <h2>Projects</h2>
-            <ul id="education">
-                <h6>
-                <li><strong>Manav Rachna International Universty: </strong>Bachelor of Technology in Aeronautical Engineering [2018]</li>
-                </h6>
-            </ul><hr>
-        </section>
-    </main>
-</body>
+
+<div class="container">
+<section id="resume">
+<ul id="resume_ul">
+    <h4><strong>Titanic Survival Prediction: </strong><h4>
+        <iframe src="visuals/obesity_v1.html" width="857.5" height="500" frameborder="0"></iframe>
+</section>
+</div>
+
+<div class="container">
+<section id="resume">
+    <h4><strong>Obesity Prediction: </strong><h4>
+        <iframe src="visuals/visualization3.html" width="857.5" height="500" frameborder="0"></iframe>
+</section>
+</div>
+
+<div class="container">
+<section id="resume">
+        <iframe src="visuals/visualization4.html" width="857.5" height="500" frameborder="0"></iframe>
+</section>
+</div>
+
+<div class="container">
+<section id="resume">
+    <h4><strong>Spotify Playlist Metrics: </strong><h4>
+        <iframe src="visuals/obesity_v1.html" width="857.5" height="500" frameborder="0"></iframe>
+</section>
+</div>
+
 </html>
